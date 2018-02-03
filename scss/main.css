@@ -2,7 +2,7 @@
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @font-face {
   font-family: 'FontAwesome';
   src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
@@ -10629,13 +10629,13 @@ img {
   margin: 0; }
 
 ::selection {
-  background: #71b9a2; }
+  background: #b285a4; }
 
 header {
   position: relative;
   padding-top: 50px; }
   header:before {
-    background: #808000;
+    background: #32374c;
     height: 15px;
     width: 100%;
     display: block; }
@@ -10702,7 +10702,7 @@ h1.title, h2.title {
       font-size: 28px;
       color: #111111; }
       .social-media-links li a:hover, .social-media-links li a:active, .social-media-links li a:focus {
-        color: #808000; }
+        color: #32374c; }
       @media (min-width: 992px) {
         .social-media-links li a {
           color: #fff; }
@@ -10725,9 +10725,6 @@ body {
   background: #eeeeee;
   overflow-x: hidden; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Century Gothic", sans-serif; }
-
 h1 {
   font-size: calc(32px + 2vw);
   margin-bottom: 30px;
@@ -10738,7 +10735,7 @@ a {
   color: #111111;
   transition: 0.3s; }
   a:hover, a:active, a:focus {
-    color: #808000;
+    color: #32374c;
     text-decoration: none; }
 
 p {
@@ -10773,7 +10770,7 @@ p {
         width: 25%; } }
 
 footer {
-  background: #808000;
+  background: #32374c;
   font-size: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -10955,7 +10952,7 @@ footer {
   width: 200px;
   padding-left: 0;
   list-style: none;
-  background: #808000;
+  background: #32374c;
   transition: background 0.5s;
   margin: 0;
   z-index: 1090; }
@@ -10973,13 +10970,13 @@ footer {
       display: block;
       text-transform: uppercase;
       padding: 1em;
-      background: #808000;
+      background: #32374c;
       color: #fff;
       text-decoration: none;
       transition: background 0.5s;
       font-size: 14px; }
     .mobile-menu > li.current_page_item > a, .mobile-menu > li.current_page_parent > a, .mobile-menu > li:hover > a, .mobile-menu > li:focus > a, .mobile-menu > li:active > a {
-      background: #d8d3cb; }
+      background: #f37978; }
     .mobile-menu > li.current_page_item ul.children, .mobile-menu > li.current_page_parent ul.children, .mobile-menu > li:hover ul.children, .mobile-menu > li:focus ul.children, .mobile-menu > li:active ul.children {
       max-height: 1200px;
       opacity: 1;
@@ -10995,11 +10992,11 @@ footer {
       .mobile-menu > li ul.children li {
         width: auto; }
         .mobile-menu > li ul.children li:hover a, .mobile-menu > li ul.children li:active a, .mobile-menu > li ul.children li:focus a, .mobile-menu > li ul.children li.current_page_item a {
-          background: #d8d3cb; }
+          background: #f37978; }
 
 @media (min-width: 992px) {
   .menu-social-media {
-    background: #808000;
+    background: #32374c;
     position: relative; }
 
   .menu {
@@ -11023,8 +11020,7 @@ footer {
       .menu li a {
         text-transform: uppercase;
         color: #fff;
-        transition: 0.3s;
-        font-family: "Century Gothic", sans-serif; }
+        transition: 0.3s; }
       .menu li:hover > a, .menu li:active > a, .menu li:focus > a {
         color: #111111; }
       .menu li:hover ul.children, .menu li:active ul.children, .menu li:focus ul.children {
@@ -11044,7 +11040,7 @@ footer {
         transition: 0.4s;
         visibility: hidden;
         z-index: 1;
-        background: #808000;
+        background: #32374c;
         padding: 10px; }
         .menu li ul.children li {
           margin: 0;
@@ -11060,3 +11056,47 @@ footer {
 .content {
   padding-top: 50px;
   padding-bottom: 50px; }
+
+body {
+  height: 100vh;
+  background: #32374c;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: #fff; }
+
+.placeholder {
+  padding: 20px; }
+
+h1 {
+  color: #f37978;
+  font-size: 60px;
+  font-weight: bold; }
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 100px; } }
+  @media (min-width: 992px) {
+    h1 {
+      font-size: 200px; } }
+
+a {
+  color: #fff; }
+  a:hover, a:active, a:focus {
+    color: #b285a4; }
+
+ul.horizontal {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none; }
+  ul.horizontal li {
+    margin-left: 10px;
+    margin-right: 10px; }
+    ul.horizontal li:fist-child {
+      margin-left: 0; }
