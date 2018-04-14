@@ -27,10 +27,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh; }
+  min-height: 100vh;
+  color: #333; }
 
 a {
-  color: #111111;
+  color: #333;
   transition: 0.3s; }
   a:hover, a:active, a:focus {
     color: #0cd07e;
@@ -49,7 +50,8 @@ h1 {
   font-size: calc( 40px + 5vw );
   font-weight: normal;
   margin-bottom: 0;
-  margin-top: 0; }
+  margin-top: 0;
+  color: #333; }
   h1:after {
     content: '';
     position: absolute;
