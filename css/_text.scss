@@ -33,13 +33,15 @@ p {
   //transform:rotate(-20deg);
   padding:20px;
   //margin-top:-90px;
-  box-shadow: 1px 0px 5px 0px rgba(51,51,51,0.3);
-  background:$bg;
-  width:70%;
+
+  //background:$bg;
+  //width:70%;
 
   @media (min-width:800px){
+    box-shadow: 1px 0px 5px 0px rgba(51,51,51,0.3);
     width:auto;
     padding:50px;
+    background:$bg;
   }
 
 }
