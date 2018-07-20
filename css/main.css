@@ -44,10 +44,8 @@ p {
   padding: 20px; }
   @media (min-width: 800px) {
     .placeholder {
-      box-shadow: 1px 0px 5px 0px rgba(51, 51, 51, 0.3);
       width: auto;
-      padding: 50px;
-      background: #eeeeee; } }
+      padding: 50px; } }
 
 h1 {
   font-family: 'Abril Fatface', cursive;
